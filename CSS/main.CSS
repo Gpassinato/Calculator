@@ -23,6 +23,7 @@
   width: 248px;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .buttons {
   padding-top: 10px;
