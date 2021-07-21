@@ -1,0 +1,117 @@
+.calculator {
+  background-color: white;
+  width: 250px;
+  height: 410px;
+  border: solid rgb(118, 118, 118) 1px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.viewer {
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 5px;
+  height: 60px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 40px;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+  width: 248px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.buttons {
+  padding-top: 10px;
+}
+.first-line {
+  width: 100%;
+  height: 61px;
+}
+.second-line {
+  width: 80%;
+  padding-top: 8px;
+}
+.third-line {
+  width: 80%;
+  padding-top: 8px;
+}
+.fourth-line {
+  width: 80%;
+  padding-top: 8px;
+}
+.last-line {
+  width: 80%;
+  padding-top: 8px;
+}
+
+.num {
+  font-size: 28px;
+  padding: 10px;
+  display: inline-block;
+  width: 29.75%;
+  height: 60px;
+  background-color: #f9f9f9;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+}
+.num:hover {
+  background-color: rgb(219, 218, 218);
+}
+.operator {
+  font-size: 28px;
+  padding: 10px;
+  display: inline-block;
+  width: 23.8%;
+  height: 60px;
+  color: #fb772f;
+  background-color: #f9f9f9;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+}
+.operator:hover {
+  background-color: rgb(219, 218, 218);
+}
+.dot {
+  font-size: 28px;
+  padding: 10px;
+  display: inline-block;
+  width: 29.75%;
+  height: 60px;
+  background-color: #f9f9f9;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+}
+.dot:hover {
+  background-color: rgb(219, 218, 218);
+}
+.reset {
+  font-size: 28px;
+  padding: 10px;
+  display: inline-block;
+  width: 29.75%;
+  height: 60px;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+}
+.reset:hover {
+  background-color: rgb(219, 218, 218);
+}
+.equal {
+  position: relative;
+  float: right;
+  font-size: 28px;
+  padding: 20px;
+  height: 64.3%;
+  background-color: #fb772f;
+  color: #f9f9f9;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+}
+.right {
+  float: right;
+  padding-top: 8px;
+}
